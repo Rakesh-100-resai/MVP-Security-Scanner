@@ -1,0 +1,441 @@
+2025-08-20 04:27:19,294 | INFO | submission | Created MinIO bucket 'uploads'
+2025-08-20 04:27:55,537 | INFO | submission | REQ GET /docs
+2025-08-20 04:27:55,541 | INFO | submission | RES GET /docs -> 200
+2025-08-20 04:27:55,886 | INFO | submission | REQ GET /openapi.json
+2025-08-20 04:27:55,897 | INFO | submission | RES GET /openapi.json -> 200
+2025-08-20 04:38:46,850 | INFO | submission | REQ GET /openapi.json
+2025-08-20 04:38:46,853 | INFO | submission | RES GET /openapi.json -> 200
+2025-08-20 04:43:01,499 | INFO | submission | REQ POST /auth/token
+2025-08-20 04:43:01,504 | INFO | submission | Issued token for 'admin'
+2025-08-20 04:43:01,507 | INFO | submission | RES POST /auth/token -> 200
+2025-08-20 04:44:33,982 | INFO | submission | REQ POST /submit
+2025-08-20 04:44:33,984 | INFO | submission | RES POST /submit -> 403
+2025-08-20 04:45:10,242 | INFO | submission | REQ POST /submit
+2025-08-20 04:45:10,261 | INFO | submission | Enqueued job file_id=c0c1fd7d-f2d5-45cd-83a2-400e7c48c1da name=demo.txt size=105
+2025-08-20 04:45:10,262 | INFO | submission | RES POST /submit -> 200
+2025-08-20 04:51:43,690 | INFO | submission | REQ POST /submit
+2025-08-20 04:51:43,693 | INFO | submission | RES POST /submit -> 403
+2025-08-20 04:51:46,122 | INFO | submission | REQ POST /submit
+2025-08-20 04:51:46,166 | INFO | submission | RES POST /submit -> 403
+2025-08-20 04:53:15,133 | INFO | submission | REQ POST /submit
+2025-08-20 04:53:15,160 | INFO | submission | Enqueued job file_id=d79e2093-2c06-4b5c-ac11-8bb4aaedf4d9 name=demo.txt size=105
+2025-08-20 04:53:15,162 | INFO | submission | RES POST /submit -> 200
+2025-08-20 04:53:57,628 | INFO | submission | REQ GET /report/d79e2093-2c06-4b5c-ac11-8bb4aaedf4d9
+2025-08-20 04:53:57,631 | INFO | submission | Report fetched file_id=d79e2093-2c06-4b5c-ac11-8bb4aaedf4d9
+2025-08-20 04:53:57,633 | INFO | submission | RES GET /report/d79e2093-2c06-4b5c-ac11-8bb4aaedf4d9 -> 200
+2025-08-20 04:54:50,274 | INFO | submission | REQ GET /report/d79e2093-2c06-4b5c-ac11-8bb4aaedf4d9
+2025-08-20 04:54:50,277 | INFO | submission | Report fetched file_id=d79e2093-2c06-4b5c-ac11-8bb4aaedf4d9
+2025-08-20 04:54:50,279 | INFO | submission | RES GET /report/d79e2093-2c06-4b5c-ac11-8bb4aaedf4d9 -> 200
+2025-08-20 04:59:07,624 | INFO | submission | REQ POST /submit
+2025-08-20 04:59:07,644 | INFO | submission | Enqueued job file_id=8c4a4f7f-51c1-4ce0-950f-331e0fcdffd6 name=demo.txt size=105
+2025-08-20 04:59:07,645 | INFO | submission | RES POST /submit -> 200
+2025-08-20 04:59:19,404 | INFO | submission | REQ GET /report/8c4a4f7f-51c1-4ce0-950f-331e0fcdffd6
+2025-08-20 04:59:19,414 | INFO | submission | Report fetched file_id=8c4a4f7f-51c1-4ce0-950f-331e0fcdffd6
+2025-08-20 04:59:19,416 | INFO | submission | RES GET /report/8c4a4f7f-51c1-4ce0-950f-331e0fcdffd6 -> 200
+2025-08-20 04:59:25,137 | INFO | submission | REQ GET /report/8c4a4f7f-51c1-4ce0-950f-331e0fcdffd6
+2025-08-20 04:59:25,140 | INFO | submission | Report fetched file_id=8c4a4f7f-51c1-4ce0-950f-331e0fcdffd6
+2025-08-20 04:59:25,141 | INFO | submission | RES GET /report/8c4a4f7f-51c1-4ce0-950f-331e0fcdffd6 -> 200
+2025-08-20 05:03:16,943 | INFO | submission | REQ POST /submit
+2025-08-20 05:03:16,956 | INFO | submission | Enqueued job file_id=0938cb2b-8006-4918-9ff5-614fc624774a name=demo.txt size=105
+2025-08-20 05:03:16,957 | INFO | submission | RES POST /submit -> 200
+2025-08-20 05:03:44,427 | INFO | submission | REQ GET /report/0938cb2b-8006-4918-9ff5-614fc624774a
+2025-08-20 05:03:44,430 | INFO | submission | Report fetched file_id=0938cb2b-8006-4918-9ff5-614fc624774a
+2025-08-20 05:03:44,431 | INFO | submission | RES GET /report/0938cb2b-8006-4918-9ff5-614fc624774a -> 200
+2025-08-20 05:03:53,561 | INFO | submission | REQ GET /report/0938cb2b-8006-4918-9ff5-614fc624774a
+2025-08-20 05:03:53,564 | INFO | submission | Report fetched file_id=0938cb2b-8006-4918-9ff5-614fc624774a
+2025-08-20 05:03:53,565 | INFO | submission | RES GET /report/0938cb2b-8006-4918-9ff5-614fc624774a -> 200
+2025-08-20 05:03:54,139 | INFO | submission | REQ GET /report/0938cb2b-8006-4918-9ff5-614fc624774a
+2025-08-20 05:03:54,143 | INFO | submission | Report fetched file_id=0938cb2b-8006-4918-9ff5-614fc624774a
+2025-08-20 05:03:54,144 | INFO | submission | RES GET /report/0938cb2b-8006-4918-9ff5-614fc624774a -> 200
+2025-08-20 05:03:54,555 | INFO | submission | REQ GET /report/0938cb2b-8006-4918-9ff5-614fc624774a
+2025-08-20 05:03:54,559 | INFO | submission | Report fetched file_id=0938cb2b-8006-4918-9ff5-614fc624774a
+2025-08-20 05:03:54,560 | INFO | submission | RES GET /report/0938cb2b-8006-4918-9ff5-614fc624774a -> 200
+2025-08-20 05:19:00,966 | INFO | submission | REQ POST /auth/token
+2025-08-20 05:19:00,972 | INFO | submission | Issued token for 'admin'
+2025-08-20 05:19:00,974 | INFO | submission | RES POST /auth/token -> 200
+2025-08-20 05:19:29,013 | INFO | submission | REQ POST /submit
+2025-08-20 05:19:29,028 | INFO | submission | Enqueued job file_id=ad34d371-b795-4ece-8c6d-c678ab303f1f name=demo.txt size=105
+2025-08-20 05:19:29,030 | INFO | submission | RES POST /submit -> 200
+2025-08-20 05:19:49,750 | INFO | submission | REQ GET /report/ad34d371-b795-4ece-8c6d-c678ab303f1f
+2025-08-20 05:19:49,754 | INFO | submission | Report fetched file_id=ad34d371-b795-4ece-8c6d-c678ab303f1f
+2025-08-20 05:19:49,756 | INFO | submission | RES GET /report/ad34d371-b795-4ece-8c6d-c678ab303f1f -> 200
+2025-08-20 06:17:30,100 | INFO | submission | REQ GET /report/ad34d371-b795-4ece-8c6d-c678ab303f1f
+2025-08-20 06:17:30,124 | INFO | submission | Report fetched file_id=ad34d371-b795-4ece-8c6d-c678ab303f1f
+2025-08-20 06:17:30,127 | INFO | submission | RES GET /report/ad34d371-b795-4ece-8c6d-c678ab303f1f -> 200
+2025-08-20 06:17:45,757 | INFO | submission | REQ POST /submit
+2025-08-20 06:17:45,793 | INFO | submission | Enqueued job file_id=a2753821-188f-476c-b337-f8284b326bd0 name=demo.txt size=105
+2025-08-20 06:17:45,796 | INFO | submission | RES POST /submit -> 200
+2025-08-20 06:18:14,514 | INFO | submission | REQ GET /report/a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:14,523 | INFO | submission | Report fetched file_id=a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:14,525 | INFO | submission | RES GET /report/a2753821-188f-476c-b337-f8284b326bd0 -> 200
+2025-08-20 06:18:20,403 | INFO | submission | REQ GET /report/a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:20,406 | INFO | submission | Report fetched file_id=a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:20,408 | INFO | submission | RES GET /report/a2753821-188f-476c-b337-f8284b326bd0 -> 200
+2025-08-20 06:18:20,803 | INFO | submission | REQ GET /report/a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:20,808 | INFO | submission | Report fetched file_id=a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:20,810 | INFO | submission | RES GET /report/a2753821-188f-476c-b337-f8284b326bd0 -> 200
+2025-08-20 06:18:20,988 | INFO | submission | REQ GET /report/a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:20,999 | INFO | submission | Report fetched file_id=a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:21,002 | INFO | submission | RES GET /report/a2753821-188f-476c-b337-f8284b326bd0 -> 200
+2025-08-20 06:18:21,160 | INFO | submission | REQ GET /report/a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:21,163 | INFO | submission | Report fetched file_id=a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:21,165 | INFO | submission | RES GET /report/a2753821-188f-476c-b337-f8284b326bd0 -> 200
+2025-08-20 06:18:21,316 | INFO | submission | REQ GET /report/a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:21,319 | INFO | submission | Report fetched file_id=a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:21,320 | INFO | submission | RES GET /report/a2753821-188f-476c-b337-f8284b326bd0 -> 200
+2025-08-20 06:18:21,476 | INFO | submission | REQ GET /report/a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:21,479 | INFO | submission | Report fetched file_id=a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:21,482 | INFO | submission | RES GET /report/a2753821-188f-476c-b337-f8284b326bd0 -> 200
+2025-08-20 06:18:21,639 | INFO | submission | REQ GET /report/a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:21,642 | INFO | submission | Report fetched file_id=a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:21,644 | INFO | submission | RES GET /report/a2753821-188f-476c-b337-f8284b326bd0 -> 200
+2025-08-20 06:18:21,805 | INFO | submission | REQ GET /report/a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:21,815 | INFO | submission | Report fetched file_id=a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:21,818 | INFO | submission | RES GET /report/a2753821-188f-476c-b337-f8284b326bd0 -> 200
+2025-08-20 06:18:22,306 | INFO | submission | REQ GET /report/a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:22,310 | INFO | submission | Report fetched file_id=a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:22,312 | INFO | submission | RES GET /report/a2753821-188f-476c-b337-f8284b326bd0 -> 200
+2025-08-20 06:18:22,843 | INFO | submission | REQ GET /report/a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:22,846 | INFO | submission | Report fetched file_id=a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:22,858 | INFO | submission | RES GET /report/a2753821-188f-476c-b337-f8284b326bd0 -> 200
+2025-08-20 06:18:22,987 | INFO | submission | REQ GET /report/a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:22,990 | INFO | submission | Report fetched file_id=a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:22,992 | INFO | submission | RES GET /report/a2753821-188f-476c-b337-f8284b326bd0 -> 200
+2025-08-20 06:18:23,551 | INFO | submission | REQ GET /report/a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:23,554 | INFO | submission | Report fetched file_id=a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:23,556 | INFO | submission | RES GET /report/a2753821-188f-476c-b337-f8284b326bd0 -> 200
+2025-08-20 06:18:24,396 | INFO | submission | REQ GET /report/a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:24,399 | INFO | submission | Report fetched file_id=a2753821-188f-476c-b337-f8284b326bd0
+2025-08-20 06:18:24,401 | INFO | submission | RES GET /report/a2753821-188f-476c-b337-f8284b326bd0 -> 200
+2025-08-20 06:20:07,866 | INFO | submission | REQ POST /auth/token
+2025-08-20 06:20:07,878 | INFO | submission | Issued token for 'admin'
+2025-08-20 06:20:07,880 | INFO | submission | RES POST /auth/token -> 200
+2025-08-20 06:20:41,462 | INFO | submission | REQ POST /submit
+2025-08-20 06:20:41,500 | INFO | submission | Enqueued job file_id=66c0455e-014b-4adf-ba5d-8f6757db2e88 name=demo.txt size=105
+2025-08-20 06:20:41,502 | INFO | submission | RES POST /submit -> 200
+2025-08-20 06:21:17,004 | INFO | submission | REQ GET /report/66c0455e-014b-4adf-ba5d-8f6757db2e88
+2025-08-20 06:21:17,008 | INFO | submission | Report fetched file_id=66c0455e-014b-4adf-ba5d-8f6757db2e88
+2025-08-20 06:21:17,010 | INFO | submission | RES GET /report/66c0455e-014b-4adf-ba5d-8f6757db2e88 -> 200
+2025-08-20 06:23:46,845 | INFO | submission | REQ POST /submit
+2025-08-20 06:23:46,860 | INFO | submission | Enqueued job file_id=821356f7-d4ca-4295-a967-7c39d3d182ad name=demo.txt size=105
+2025-08-20 06:23:46,861 | INFO | submission | RES POST /submit -> 200
+2025-08-20 06:23:52,886 | INFO | submission | REQ POST /auth/token
+2025-08-20 06:23:52,891 | INFO | submission | Issued token for 'admin'
+2025-08-20 06:23:52,893 | INFO | submission | RES POST /auth/token -> 200
+2025-08-20 06:24:14,743 | INFO | submission | REQ POST /submit
+2025-08-20 06:24:14,796 | INFO | submission | Enqueued job file_id=e1d9ad86-8443-4a00-876b-0b11666ad670 name=demo.txt size=105
+2025-08-20 06:24:14,802 | INFO | submission | RES POST /submit -> 200
+2025-08-20 06:24:26,779 | INFO | submission | REQ GET /report/e1d9ad86-8443-4a00-876b-0b11666ad670
+2025-08-20 06:24:26,783 | INFO | submission | Report fetched file_id=e1d9ad86-8443-4a00-876b-0b11666ad670
+2025-08-20 06:24:26,786 | INFO | submission | RES GET /report/e1d9ad86-8443-4a00-876b-0b11666ad670 -> 200
+2025-08-20 06:26:31,264 | INFO | submission | REQ GET /docs
+2025-08-20 06:26:31,266 | INFO | submission | RES GET /docs -> 200
+2025-08-20 06:26:31,448 | INFO | submission | REQ GET /openapi.json
+2025-08-20 06:26:31,460 | INFO | submission | RES GET /openapi.json -> 200
+2025-08-20 06:26:54,036 | INFO | submission | REQ POST /auth/token
+2025-08-20 06:26:54,041 | INFO | submission | Issued token for 'admin'
+2025-08-20 06:26:54,044 | INFO | submission | RES POST /auth/token -> 200
+2025-08-20 06:26:55,410 | INFO | submission | REQ POST /auth/token
+2025-08-20 06:26:55,413 | INFO | submission | Issued token for 'admin'
+2025-08-20 06:26:55,415 | INFO | submission | RES POST /auth/token -> 200
+2025-08-20 06:27:22,755 | INFO | submission | REQ POST /submit
+2025-08-20 06:27:22,771 | INFO | submission | Enqueued job file_id=600b852d-0ac9-4d77-aa77-465918598b80 name=demo.txt size=105
+2025-08-20 06:27:22,772 | INFO | submission | RES POST /submit -> 200
+2025-08-20 06:27:25,223 | INFO | submission | REQ POST /submit
+2025-08-20 06:27:25,287 | INFO | submission | Enqueued job file_id=ddb8c3bb-dd49-47f6-af78-00a17a7f788c name=demo.txt size=105
+2025-08-20 06:27:25,288 | INFO | submission | RES POST /submit -> 200
+2025-08-20 06:27:38,966 | INFO | submission | REQ GET /report/ddb8c3bb-dd49-47f6-af78-00a17a7f788c
+2025-08-20 06:27:38,973 | INFO | submission | Report fetched file_id=ddb8c3bb-dd49-47f6-af78-00a17a7f788c
+2025-08-20 06:27:38,975 | INFO | submission | RES GET /report/ddb8c3bb-dd49-47f6-af78-00a17a7f788c -> 200
+2025-08-20 06:34:07,804 | INFO | submission | REQ POST /submit
+2025-08-20 06:34:07,834 | INFO | submission | Enqueued job file_id=8e1c06a8-fc3c-4d01-9330-c622b542dcd3 name=demo.txt size=105
+2025-08-20 06:34:07,835 | INFO | submission | RES POST /submit -> 200
+2025-08-20 10:50:03,460 | INFO | submission | REQ POST /auth/token
+2025-08-20 10:50:03,469 | INFO | submission | Issued token for 'admin'
+2025-08-20 10:50:03,472 | INFO | submission | RES POST /auth/token -> 200
+2025-08-20 10:50:04,187 | INFO | submission | REQ POST /auth/token
+2025-08-20 10:50:04,190 | INFO | submission | Issued token for 'admin'
+2025-08-20 10:50:04,192 | INFO | submission | RES POST /auth/token -> 200
+2025-08-20 10:50:04,610 | INFO | submission | REQ POST /auth/token
+2025-08-20 10:50:04,614 | INFO | submission | Issued token for 'admin'
+2025-08-20 10:50:04,616 | INFO | submission | RES POST /auth/token -> 200
+2025-08-20 10:50:04,841 | INFO | submission | REQ POST /auth/token
+2025-08-20 10:50:04,847 | INFO | submission | Issued token for 'admin'
+2025-08-20 10:50:04,851 | INFO | submission | RES POST /auth/token -> 200
+2025-08-20 10:50:08,868 | INFO | submission | REQ POST /auth/token
+2025-08-20 10:50:08,871 | INFO | submission | Issued token for 'admin'
+2025-08-20 10:50:08,873 | INFO | submission | RES POST /auth/token -> 200
+2025-08-20 10:50:50,646 | INFO | submission | REQ POST /submit
+2025-08-20 10:50:50,688 | INFO | submission | Enqueued job file_id=f1415b75-cbf7-4abe-a1c9-2d9568da78de name=demo.txt size=105
+2025-08-20 10:50:50,693 | INFO | submission | RES POST /submit -> 200
+2025-08-20 10:51:06,509 | INFO | submission | REQ GET /report/f1415b75-cbf7-4abe-a1c9-2d9568da78de
+2025-08-20 10:51:06,513 | INFO | submission | Report fetched file_id=f1415b75-cbf7-4abe-a1c9-2d9568da78de
+2025-08-20 10:51:06,515 | INFO | submission | RES GET /report/f1415b75-cbf7-4abe-a1c9-2d9568da78de -> 200
+2025-08-20 10:53:42,470 | INFO | submission | REQ GET /report/f1415b75-cbf7-4abe-a1c9-2d9568da78de
+2025-08-20 10:53:42,475 | INFO | submission | Report fetched file_id=f1415b75-cbf7-4abe-a1c9-2d9568da78de
+2025-08-20 10:53:42,478 | INFO | submission | RES GET /report/f1415b75-cbf7-4abe-a1c9-2d9568da78de -> 200
+2025-08-20 10:53:43,147 | INFO | submission | REQ GET /report/f1415b75-cbf7-4abe-a1c9-2d9568da78de
+2025-08-20 10:53:43,151 | INFO | submission | Report fetched file_id=f1415b75-cbf7-4abe-a1c9-2d9568da78de
+2025-08-20 10:53:43,156 | INFO | submission | RES GET /report/f1415b75-cbf7-4abe-a1c9-2d9568da78de -> 200
+2025-08-20 10:53:48,155 | INFO | submission | REQ POST /submit
+2025-08-20 10:53:48,212 | INFO | submission | Enqueued job file_id=e166bd66-38fe-45a8-8608-09388884941c name=demo.txt size=105
+2025-08-20 10:53:48,214 | INFO | submission | RES POST /submit -> 200
+2025-08-20 10:54:01,413 | INFO | submission | REQ GET /report/e166bd66-38fe-45a8-8608-09388884941c
+2025-08-20 10:54:01,426 | INFO | submission | Report fetched file_id=e166bd66-38fe-45a8-8608-09388884941c
+2025-08-20 10:54:01,428 | INFO | submission | RES GET /report/e166bd66-38fe-45a8-8608-09388884941c -> 200
+2025-08-20 10:54:09,567 | INFO | submission | REQ GET /report/e166bd66-38fe-45a8-8608-09388884941c
+2025-08-20 10:54:09,571 | INFO | submission | Report fetched file_id=e166bd66-38fe-45a8-8608-09388884941c
+2025-08-20 10:54:09,572 | INFO | submission | RES GET /report/e166bd66-38fe-45a8-8608-09388884941c -> 200
+2025-08-20 10:55:09,482 | INFO | submission | REQ POST /auth/token
+2025-08-20 10:55:09,493 | INFO | submission | Issued token for 'admin'
+2025-08-20 10:55:09,498 | INFO | submission | RES POST /auth/token -> 200
+2025-08-20 10:55:42,692 | INFO | submission | REQ POST /submit
+2025-08-20 10:55:42,740 | INFO | submission | Enqueued job file_id=f4a30fc4-0ebb-4263-b384-ec92a6223d4c name=demo.txt size=105
+2025-08-20 10:55:42,743 | INFO | submission | RES POST /submit -> 200
+2025-08-20 10:55:56,598 | INFO | submission | REQ GET /report/f4a30fc4-0ebb-4263-b384-ec92a6223d4c
+2025-08-20 10:55:56,604 | INFO | submission | Report fetched file_id=f4a30fc4-0ebb-4263-b384-ec92a6223d4c
+2025-08-20 10:55:56,607 | INFO | submission | RES GET /report/f4a30fc4-0ebb-4263-b384-ec92a6223d4c -> 200
+2025-08-20 11:13:38,933 | INFO | submission | REQ GET /docs
+2025-08-20 11:13:38,937 | INFO | submission | RES GET /docs -> 200
+2025-08-20 11:13:39,397 | INFO | submission | REQ GET /openapi.json
+2025-08-20 11:13:39,428 | INFO | submission | RES GET /openapi.json -> 200
+2025-08-20 11:13:56,116 | INFO | submission | REQ POST /auth/token
+2025-08-20 11:13:56,121 | INFO | submission | Issued token for 'admin'
+2025-08-20 11:13:56,123 | INFO | submission | RES POST /auth/token -> 200
+2025-08-20 11:14:00,416 | INFO | submission | REQ POST /auth/token
+2025-08-20 11:14:00,419 | INFO | submission | Issued token for 'admin'
+2025-08-20 11:14:00,421 | INFO | submission | RES POST /auth/token -> 200
+2025-08-20 11:16:22,927 | INFO | submission | REQ POST /submit
+2025-08-20 11:16:22,961 | INFO | submission | Enqueued job file_id=83eb87c2-65b6-435f-9f69-3eee07ec9eb1 name=test_doc.txt size=68
+2025-08-20 11:16:22,964 | INFO | submission | RES POST /submit -> 200
+2025-08-20 11:16:36,307 | INFO | submission | REQ GET /report/83eb87c2-65b6-435f-9f69-3eee07ec9eb1
+2025-08-20 11:16:36,315 | INFO | submission | Report fetched file_id=83eb87c2-65b6-435f-9f69-3eee07ec9eb1
+2025-08-20 11:16:36,317 | INFO | submission | RES GET /report/83eb87c2-65b6-435f-9f69-3eee07ec9eb1 -> 200
+2025-08-21 10:58:49,241 | INFO | submission | REQ POST /auth/token
+2025-08-21 10:58:49,276 | INFO | submission | Issued token for 'admin'
+2025-08-21 10:58:49,289 | INFO | submission | RES POST /auth/token -> 200
+2025-08-21 10:59:21,892 | INFO | submission | REQ POST /submit
+2025-08-21 10:59:21,972 | INFO | submission | Enqueued job file_id=1013d0b0-d0ed-46e7-bb8a-103088772bec name=test_doc.txt size=68
+2025-08-21 10:59:21,974 | INFO | submission | RES POST /submit -> 200
+2025-08-21 10:59:38,565 | INFO | submission | REQ POST /submit
+2025-08-21 10:59:38,577 | INFO | submission | Enqueued job file_id=25efed45-f96c-4e35-9706-568d6562af64 name=test_doc.txt size=68
+2025-08-21 10:59:38,579 | INFO | submission | RES POST /submit -> 200
+2025-08-21 10:59:56,260 | INFO | submission | REQ GET /report/25efed45-f96c-4e35-9706-568d6562af64
+2025-08-21 10:59:56,269 | INFO | submission | Report fetched file_id=25efed45-f96c-4e35-9706-568d6562af64
+2025-08-21 10:59:56,271 | INFO | submission | RES GET /report/25efed45-f96c-4e35-9706-568d6562af64 -> 200
+2025-08-21 11:00:08,439 | INFO | submission | REQ GET /report/25efed45-f96c-4e35-9706-568d6562af64
+2025-08-21 11:00:08,442 | INFO | submission | Report fetched file_id=25efed45-f96c-4e35-9706-568d6562af64
+2025-08-21 11:00:08,444 | INFO | submission | RES GET /report/25efed45-f96c-4e35-9706-568d6562af64 -> 200
+2025-08-21 11:06:58,742 | INFO | submission | REQ POST /auth/token
+2025-08-21 11:06:58,751 | INFO | submission | Issued token for 'admin'
+2025-08-21 11:06:58,753 | INFO | submission | RES POST /auth/token -> 200
+2025-08-21 11:07:18,965 | INFO | submission | REQ POST /submit
+2025-08-21 11:07:19,005 | INFO | submission | Enqueued job file_id=bb1a1eed-5b36-4b1e-ac6f-6bac595b6ac1 name=test_doc.txt size=68
+2025-08-21 11:07:19,008 | INFO | submission | RES POST /submit -> 200
+2025-08-21 11:07:31,083 | INFO | submission | REQ GET /report/bb1a1eed-5b36-4b1e-ac6f-6bac595b6ac1
+2025-08-21 11:07:31,088 | INFO | submission | Report fetched file_id=bb1a1eed-5b36-4b1e-ac6f-6bac595b6ac1
+2025-08-21 11:07:31,091 | INFO | submission | RES GET /report/bb1a1eed-5b36-4b1e-ac6f-6bac595b6ac1 -> 200
+2025-08-21 11:11:06,735 | INFO | submission | REQ POST /submit
+2025-08-21 11:11:06,771 | INFO | submission | Enqueued job file_id=50eafece-b1e9-480e-b46b-b1807d9fb311 name=test_doc.txt size=68
+2025-08-21 11:11:06,773 | INFO | submission | RES POST /submit -> 200
+2025-08-21 11:11:23,726 | INFO | submission | REQ GET /report/50eafece-b1e9-480e-b46b-b1807d9fb311
+2025-08-21 11:11:23,730 | INFO | submission | Report fetched file_id=50eafece-b1e9-480e-b46b-b1807d9fb311
+2025-08-21 11:11:23,732 | INFO | submission | RES GET /report/50eafece-b1e9-480e-b46b-b1807d9fb311 -> 200
+2025-08-21 11:15:15,901 | INFO | submission | REQ GET /docs
+2025-08-21 11:15:15,904 | INFO | submission | RES GET /docs -> 200
+2025-08-21 11:15:16,193 | INFO | submission | REQ GET /openapi.json
+2025-08-21 11:15:16,217 | INFO | submission | RES GET /openapi.json -> 200
+2025-08-21 11:15:37,397 | INFO | submission | REQ POST /auth/token
+2025-08-21 11:15:37,401 | INFO | submission | Issued token for 'admin'
+2025-08-21 11:15:37,404 | INFO | submission | RES POST /auth/token -> 200
+2025-08-21 11:15:39,742 | INFO | submission | REQ POST /auth/token
+2025-08-21 11:15:39,745 | INFO | submission | Issued token for 'admin'
+2025-08-21 11:15:39,748 | INFO | submission | RES POST /auth/token -> 200
+2025-08-21 11:16:07,848 | INFO | submission | REQ POST /submit
+2025-08-21 11:16:07,884 | INFO | submission | Enqueued job file_id=231b1ae0-ee5e-4f1d-a32d-088b7a4a13bf name=test_doc.txt size=68
+2025-08-21 11:16:07,887 | INFO | submission | RES POST /submit -> 200
+2025-08-21 11:16:22,679 | INFO | submission | REQ GET /report/231b1ae0-ee5e-4f1d-a32d-088b7a4a13bf
+2025-08-21 11:16:22,684 | INFO | submission | Report fetched file_id=231b1ae0-ee5e-4f1d-a32d-088b7a4a13bf
+2025-08-21 11:16:22,686 | INFO | submission | RES GET /report/231b1ae0-ee5e-4f1d-a32d-088b7a4a13bf -> 200
+2025-08-21 11:22:14,966 | INFO | submission | REQ GET /report/231b1ae0-ee5e-4f1d-a32d-088b7a4a13bf
+2025-08-21 11:22:14,972 | INFO | submission | Report fetched file_id=231b1ae0-ee5e-4f1d-a32d-088b7a4a13bf
+2025-08-21 11:22:14,974 | INFO | submission | RES GET /report/231b1ae0-ee5e-4f1d-a32d-088b7a4a13bf -> 200
+2025-08-21 11:22:22,078 | INFO | submission | REQ POST /submit
+2025-08-21 11:22:22,096 | INFO | submission | Enqueued job file_id=0feb36f4-c729-46da-ade9-a0f3a3d268e9 name=test_doc.txt size=68
+2025-08-21 11:22:22,097 | INFO | submission | RES POST /submit -> 200
+2025-08-21 11:22:30,332 | INFO | submission | REQ GET /report/0feb36f4-c729-46da-ade9-a0f3a3d268e9
+2025-08-21 11:22:30,337 | INFO | submission | Report fetched file_id=0feb36f4-c729-46da-ade9-a0f3a3d268e9
+2025-08-21 11:22:30,341 | INFO | submission | RES GET /report/0feb36f4-c729-46da-ade9-a0f3a3d268e9 -> 200
+2025-08-21 11:23:00,583 | INFO | submission | REQ GET /report/0feb36f4-c729-46da-ade9-a0f3a3d268e9
+2025-08-21 11:23:00,587 | INFO | submission | Report fetched file_id=0feb36f4-c729-46da-ade9-a0f3a3d268e9
+2025-08-21 11:23:00,589 | INFO | submission | RES GET /report/0feb36f4-c729-46da-ade9-a0f3a3d268e9 -> 200
+2025-08-21 13:00:59,799 | INFO | submission | REQ POST /auth/token
+2025-08-21 13:00:59,807 | INFO | submission | Issued token for 'admin'
+2025-08-21 13:00:59,810 | INFO | submission | RES POST /auth/token -> 200
+2025-08-21 13:01:20,902 | INFO | submission | REQ POST /submit
+2025-08-21 13:01:20,919 | INFO | submission | Enqueued job file_id=b18fa9e0-2cc8-4c19-b812-f310d94ab708 name=test_doc.txt size=68
+2025-08-21 13:01:20,920 | INFO | submission | RES POST /submit -> 200
+2025-08-21 13:01:37,303 | INFO | submission | REQ GET /report/b18fa9e0-2cc8-4c19-b812-f310d94ab708
+2025-08-21 13:01:37,308 | INFO | submission | Report fetched file_id=b18fa9e0-2cc8-4c19-b812-f310d94ab708
+2025-08-21 13:01:37,310 | INFO | submission | RES GET /report/b18fa9e0-2cc8-4c19-b812-f310d94ab708 -> 200
+2025-08-22 09:32:03,266 | INFO | submission | REQ POST /auth/token
+2025-08-22 09:32:03,288 | INFO | submission | Issued token for 'admin'
+2025-08-22 09:32:03,294 | INFO | submission | RES POST /auth/token -> 200
+2025-08-22 09:32:57,310 | INFO | submission | REQ POST /submit
+2025-08-22 09:32:57,369 | INFO | submission | Enqueued job file_id=372a9c4f-0c4d-4400-ab11-f248c57567b7 name=test_doc.txt size=68
+2025-08-22 09:32:57,372 | INFO | submission | RES POST /submit -> 200
+2025-08-22 09:33:06,603 | INFO | submission | REQ GET /report/372a9c4f-0c4d-4400-ab11-f248c57567b7
+2025-08-22 09:33:06,627 | INFO | submission | Report fetched file_id=372a9c4f-0c4d-4400-ab11-f248c57567b7
+2025-08-22 09:33:06,632 | INFO | submission | RES GET /report/372a9c4f-0c4d-4400-ab11-f248c57567b7 -> 200
+2025-08-22 09:39:06,670 | INFO | submission | REQ POST /submit
+2025-08-22 09:39:06,718 | INFO | submission | Enqueued job file_id=48389717-2a27-4086-8b55-f45eb504fc71 name=demo.txt size=105
+2025-08-22 09:39:06,721 | INFO | submission | RES POST /submit -> 200
+2025-08-22 09:39:34,432 | INFO | submission | REQ GET /report/48389717-2a27-4086-8b55-f45eb504fc71
+2025-08-22 09:39:34,437 | INFO | submission | Report fetched file_id=48389717-2a27-4086-8b55-f45eb504fc71
+2025-08-22 09:39:34,440 | INFO | submission | RES GET /report/48389717-2a27-4086-8b55-f45eb504fc71 -> 200
+2025-08-22 09:50:49,670 | INFO | submission | REQ POST /submit
+2025-08-22 09:50:49,707 | INFO | submission | Enqueued job file_id=dcf02707-2eb1-40ad-8397-46f9752476f3 name=python.exe size=254800
+2025-08-22 09:50:49,709 | INFO | submission | RES POST /submit -> 200
+2025-08-22 09:51:12,582 | INFO | submission | REQ GET /report/dcf02707-2eb1-40ad-8397-46f9752476f3
+2025-08-22 09:51:12,586 | INFO | submission | Report fetched file_id=dcf02707-2eb1-40ad-8397-46f9752476f3
+2025-08-22 09:51:12,588 | INFO | submission | RES GET /report/dcf02707-2eb1-40ad-8397-46f9752476f3 -> 200
+2025-08-22 09:52:13,745 | INFO | submission | REQ POST /submit
+2025-08-22 09:52:15,532 | INFO | submission | Enqueued job file_id=512d71cb-cfc7-4572-89b8-edd5601c32d1 name=(Cambridge Law Handbooks) Silja Voeneky, Philipp Kellmeyer, Oliver Mueller, Wolfram Burgard - The Cambridge Handbook of Responsible Artificial Intelligence_ Interdisciplinary Perspectives-Cambridge Un.pdf size=7039715
+2025-08-22 09:52:15,541 | INFO | submission | RES POST /submit -> 200
+2025-08-22 09:52:34,545 | INFO | submission | REQ GET /report/512d71cb-cfc7-4572-89b8-edd5601c32d1
+2025-08-22 09:52:34,563 | INFO | submission | Report not ready file_id=512d71cb-cfc7-4572-89b8-edd5601c32d1
+2025-08-22 09:52:34,568 | INFO | submission | RES GET /report/512d71cb-cfc7-4572-89b8-edd5601c32d1 -> 200
+2025-08-22 09:57:05,291 | INFO | submission | REQ GET /report/512d71cb-cfc7-4572-89b8-edd5601c32d1
+2025-08-22 09:57:05,299 | INFO | submission | Report fetched file_id=512d71cb-cfc7-4572-89b8-edd5601c32d1
+2025-08-22 09:57:05,308 | INFO | submission | RES GET /report/512d71cb-cfc7-4572-89b8-edd5601c32d1 -> 200
+2025-08-22 09:57:57,198 | INFO | submission | REQ POST /submit
+2025-08-22 09:57:57,242 | INFO | submission | Enqueued job file_id=94ac7915-9d25-40b8-801b-ead98eb1f155 name=response_1755688596342.json size=490
+2025-08-22 09:57:57,245 | INFO | submission | RES POST /submit -> 200
+2025-08-22 09:58:17,255 | INFO | submission | REQ GET /report/94ac7915-9d25-40b8-801b-ead98eb1f155
+2025-08-22 09:58:17,258 | INFO | submission | Report fetched file_id=94ac7915-9d25-40b8-801b-ead98eb1f155
+2025-08-22 09:58:17,260 | INFO | submission | RES GET /report/94ac7915-9d25-40b8-801b-ead98eb1f155 -> 200
+2025-08-22 09:59:52,089 | INFO | submission | REQ POST /submit
+2025-08-22 09:59:52,164 | INFO | submission | Enqueued job file_id=45b424da-bf43-4893-9c64-429a57457a6b name=Mock-Interview-HandBook.docx size=505958
+2025-08-22 09:59:52,166 | INFO | submission | RES POST /submit -> 200
+2025-08-22 10:00:03,865 | INFO | submission | REQ GET /report/45b424da-bf43-4893-9c64-429a57457a6b
+2025-08-22 10:00:03,869 | INFO | submission | Report fetched file_id=45b424da-bf43-4893-9c64-429a57457a6b
+2025-08-22 10:00:03,873 | INFO | submission | RES GET /report/45b424da-bf43-4893-9c64-429a57457a6b -> 200
+2025-08-22 10:06:48,549 | INFO | submission | REQ POST /submit
+2025-08-22 10:06:48,623 | INFO | submission | Enqueued job file_id=86716aa2-deef-48fb-8895-b6b14f257e5a name=debugTest.vbs size=89
+2025-08-22 10:06:48,629 | INFO | submission | RES POST /submit -> 200
+2025-08-22 10:07:01,064 | INFO | submission | REQ GET /report/86716aa2-deef-48fb-8895-b6b14f257e5a
+2025-08-22 10:07:01,076 | INFO | submission | Report fetched file_id=86716aa2-deef-48fb-8895-b6b14f257e5a
+2025-08-22 10:07:01,079 | INFO | submission | RES GET /report/86716aa2-deef-48fb-8895-b6b14f257e5a -> 200
+2025-08-22 10:15:19,332 | INFO | submission | REQ POST /submit
+2025-08-22 10:15:19,373 | INFO | submission | Enqueued job file_id=d77d5d42-8807-4ee7-8ec0-b4f9b5d7920a name=edited resume.pdf size=87541
+2025-08-22 10:15:19,380 | INFO | submission | RES POST /submit -> 200
+2025-08-22 10:15:32,635 | INFO | submission | REQ GET /report/d77d5d42-8807-4ee7-8ec0-b4f9b5d7920a
+2025-08-22 10:15:32,640 | INFO | submission | Report fetched file_id=d77d5d42-8807-4ee7-8ec0-b4f9b5d7920a
+2025-08-22 10:15:32,643 | INFO | submission | RES GET /report/d77d5d42-8807-4ee7-8ec0-b4f9b5d7920a -> 200
+2025-08-22 10:22:05,186 | INFO | submission | REQ POST /submit
+2025-08-22 10:22:05,230 | INFO | submission | Enqueued job file_id=fbae4d16-795b-415d-b301-6c3682ee93c0 name=corrupted_test.pdf size=561
+2025-08-22 10:22:05,237 | INFO | submission | RES POST /submit -> 200
+2025-08-22 10:22:17,810 | INFO | submission | REQ GET /report/fbae4d16-795b-415d-b301-6c3682ee93c0
+2025-08-22 10:22:17,826 | INFO | submission | Report fetched file_id=fbae4d16-795b-415d-b301-6c3682ee93c0
+2025-08-22 10:22:17,828 | INFO | submission | RES GET /report/fbae4d16-795b-415d-b301-6c3682ee93c0 -> 200
+2025-08-22 10:22:22,525 | INFO | submission | REQ GET /report/fbae4d16-795b-415d-b301-6c3682ee93c0
+2025-08-22 10:22:22,529 | INFO | submission | Report fetched file_id=fbae4d16-795b-415d-b301-6c3682ee93c0
+2025-08-22 10:22:22,545 | INFO | submission | RES GET /report/fbae4d16-795b-415d-b301-6c3682ee93c0 -> 200
+2025-08-22 10:24:52,146 | INFO | submission | REQ POST /submit
+2025-08-22 10:24:52,173 | INFO | submission | Enqueued job file_id=e4a92c86-7b67-4d26-866c-57c8cb45a3f8 name=corrupted_test.pdf size=561
+2025-08-22 10:24:52,174 | INFO | submission | RES POST /submit -> 200
+2025-08-22 10:25:01,736 | INFO | submission | REQ GET /report/e4a92c86-7b67-4d26-866c-57c8cb45a3f8
+2025-08-22 10:25:01,739 | INFO | submission | Report fetched file_id=e4a92c86-7b67-4d26-866c-57c8cb45a3f8
+2025-08-22 10:25:01,741 | INFO | submission | RES GET /report/e4a92c86-7b67-4d26-866c-57c8cb45a3f8 -> 200
+2025-08-22 10:25:12,165 | INFO | submission | REQ POST /auth/token
+2025-08-22 10:25:12,169 | INFO | submission | Issued token for 'admin'
+2025-08-22 10:25:12,172 | INFO | submission | RES POST /auth/token -> 200
+2025-08-22 10:25:43,145 | INFO | submission | REQ GET /report/e4a92c86-7b67-4d26-866c-57c8cb45a3f8
+2025-08-22 10:25:43,151 | INFO | submission | Report fetched file_id=e4a92c86-7b67-4d26-866c-57c8cb45a3f8
+2025-08-22 10:25:43,153 | INFO | submission | RES GET /report/e4a92c86-7b67-4d26-866c-57c8cb45a3f8 -> 200
+2025-08-22 10:26:39,469 | INFO | submission | REQ POST /auth/token
+2025-08-22 10:26:39,478 | INFO | submission | Issued token for 'admin'
+2025-08-22 10:26:39,486 | INFO | submission | RES POST /auth/token -> 200
+2025-08-22 10:27:03,588 | INFO | submission | REQ POST /submit
+2025-08-22 10:27:03,681 | INFO | submission | Enqueued job file_id=bb7b3661-242d-40f4-bf9f-2d95e8b820d0 name=corrupted_test.pdf size=561
+2025-08-22 10:27:03,694 | INFO | submission | RES POST /submit -> 200
+2025-08-22 10:27:14,106 | INFO | submission | REQ GET /report/bb7b3661-242d-40f4-bf9f-2d95e8b820d0
+2025-08-22 10:27:14,134 | INFO | submission | Report not ready file_id=bb7b3661-242d-40f4-bf9f-2d95e8b820d0
+2025-08-22 10:27:14,157 | INFO | submission | RES GET /report/bb7b3661-242d-40f4-bf9f-2d95e8b820d0 -> 200
+2025-08-22 10:29:09,091 | INFO | submission | REQ POST /submit
+2025-08-22 10:29:09,133 | INFO | submission | Enqueued job file_id=55466ed8-c64a-4587-9456-e0263934dc42 name=edited resume.pdf size=87541
+2025-08-22 10:29:09,135 | INFO | submission | RES POST /submit -> 200
+2025-08-22 10:29:18,200 | INFO | submission | REQ GET /report/55466ed8-c64a-4587-9456-e0263934dc42
+2025-08-22 10:29:18,203 | INFO | submission | Report fetched file_id=55466ed8-c64a-4587-9456-e0263934dc42
+2025-08-22 10:29:18,205 | INFO | submission | RES GET /report/55466ed8-c64a-4587-9456-e0263934dc42 -> 200
+2025-08-22 12:19:09,836 | INFO | submission | REQ GET /report/55466ed8-c64a-4587-9456-e0263934dc42
+2025-08-22 12:19:10,007 | INFO | submission | RES GET /report/55466ed8-c64a-4587-9456-e0263934dc42 -> 401
+2025-08-26 06:09:16,110 | INFO | submission | REQ POST /auth/token
+2025-08-26 06:09:16,116 | INFO | submission | Issued token for 'admin'
+2025-08-26 06:09:16,119 | INFO | submission | RES POST /auth/token -> 200
+2025-08-26 06:10:09,609 | INFO | submission | REQ POST /submit
+2025-08-26 06:10:09,640 | INFO | submission | Enqueued job file_id=8e6988a8-e849-4c0a-92c7-b46da88d8dbf name=edited resume.pdf size=87541
+2025-08-26 06:10:09,643 | INFO | submission | RES POST /submit -> 200
+2025-08-26 06:10:21,025 | INFO | submission | REQ GET /report/8e6988a8-e849-4c0a-92c7-b46da88d8dbf
+2025-08-26 06:10:21,030 | INFO | submission | Report fetched file_id=8e6988a8-e849-4c0a-92c7-b46da88d8dbf
+2025-08-26 06:10:21,034 | INFO | submission | RES GET /report/8e6988a8-e849-4c0a-92c7-b46da88d8dbf -> 200
+2025-08-26 06:23:20,058 | INFO | submission | REQ POST /submit
+2025-08-26 06:23:20,085 | INFO | submission | Enqueued job file_id=83e537bb-a226-44e6-8749-868c6b30fecd name=test_doc.txt size=68
+2025-08-26 06:23:20,090 | INFO | submission | RES POST /submit -> 200
+2025-08-26 06:23:32,516 | INFO | submission | REQ GET /report/83e537bb-a226-44e6-8749-868c6b30fecd
+2025-08-26 06:23:32,521 | INFO | submission | Report fetched file_id=83e537bb-a226-44e6-8749-868c6b30fecd
+2025-08-26 06:23:32,524 | INFO | submission | RES GET /report/83e537bb-a226-44e6-8749-868c6b30fecd -> 200
+2025-08-26 06:37:22,359 | INFO | submission | REQ GET /docs
+2025-08-26 06:37:22,363 | INFO | submission | RES GET /docs -> 200
+2025-08-26 06:37:22,737 | INFO | submission | REQ GET /openapi.json
+2025-08-26 06:37:22,749 | INFO | submission | RES GET /openapi.json -> 200
+2025-08-26 06:37:54,613 | INFO | submission | REQ POST /auth/token
+2025-08-26 06:37:54,618 | INFO | submission | Issued token for 'admin'
+2025-08-26 06:37:54,621 | INFO | submission | RES POST /auth/token -> 200
+2025-08-26 06:37:56,353 | INFO | submission | REQ POST /auth/token
+2025-08-26 06:37:56,355 | INFO | submission | Issued token for 'admin'
+2025-08-26 06:37:56,357 | INFO | submission | RES POST /auth/token -> 200
+2025-08-26 06:38:31,026 | INFO | submission | REQ POST /submit
+2025-08-26 06:38:31,049 | INFO | submission | Enqueued job file_id=cad349fa-df4b-4f6a-9ee5-5a3c86f5ba98 name=test_doc.txt size=68
+2025-08-26 06:38:31,051 | INFO | submission | RES POST /submit -> 200
+2025-08-26 06:38:52,768 | INFO | submission | REQ GET /report/cad349fa-df4b-4f6a-9ee5-5a3c86f5ba98
+2025-08-26 06:38:52,773 | INFO | submission | Report fetched file_id=cad349fa-df4b-4f6a-9ee5-5a3c86f5ba98
+2025-08-26 06:38:52,776 | INFO | submission | RES GET /report/cad349fa-df4b-4f6a-9ee5-5a3c86f5ba98 -> 200
+2025-08-26 09:38:11,031 | INFO | submission | REQ GET /docs
+2025-08-26 09:38:11,042 | INFO | submission | RES GET /docs -> 200
+2025-08-26 09:38:11,192 | INFO | submission | REQ GET /openapi.json
+2025-08-26 09:38:11,195 | INFO | submission | RES GET /openapi.json -> 200
+2025-08-26 09:39:21,317 | INFO | submission | REQ GET /docs
+2025-08-26 09:39:21,323 | INFO | submission | RES GET /docs -> 200
+2025-08-26 09:39:21,468 | INFO | submission | REQ GET /openapi.json
+2025-08-26 09:39:21,471 | INFO | submission | RES GET /openapi.json -> 200
+2025-08-26 09:41:38,948 | INFO | submission | REQ GET /docs
+2025-08-26 09:41:38,950 | INFO | submission | RES GET /docs -> 200
+2025-08-26 09:41:39,014 | INFO | submission | REQ GET /openapi.json
+2025-08-26 09:41:39,016 | INFO | submission | RES GET /openapi.json -> 200
+2025-08-26 09:42:13,421 | INFO | submission | REQ POST /auth/token
+2025-08-26 09:42:13,435 | INFO | submission | Issued token for 'admin'
+2025-08-26 09:42:13,439 | INFO | submission | RES POST /auth/token -> 200
+2025-08-26 09:42:57,288 | INFO | submission | REQ POST /submit
+2025-08-26 09:42:57,346 | INFO | submission | Enqueued job file_id=cc3e736e-8c2d-45e8-a2ab-c83a9cb203f9 name=test_doc.txt size=68
+2025-08-26 09:42:57,348 | INFO | submission | RES POST /submit -> 200
+2025-08-26 09:44:07,848 | INFO | submission | REQ GET /report/cc3e736e-8c2d-45e8-a2ab-c83a9cb203f9
+2025-08-26 09:44:07,860 | INFO | submission | Report fetched file_id=cc3e736e-8c2d-45e8-a2ab-c83a9cb203f9
+2025-08-26 09:44:07,867 | INFO | submission | RES GET /report/cc3e736e-8c2d-45e8-a2ab-c83a9cb203f9 -> 200
+2025-08-26 10:16:48,960 | INFO | submission | REQ GET /docs
+2025-08-26 10:16:48,964 | INFO | submission | RES GET /docs -> 200
+2025-08-26 10:16:53,010 | INFO | submission | REQ GET /openapi.json
+2025-08-26 10:16:53,034 | INFO | submission | RES GET /openapi.json -> 200
+2025-08-26 10:17:21,218 | INFO | submission | REQ POST /auth/token
+2025-08-26 10:17:21,223 | INFO | submission | Issued token for 'admin'
+2025-08-26 10:17:21,229 | INFO | submission | RES POST /auth/token -> 200
+2025-08-26 10:17:53,390 | INFO | submission | REQ POST /submit
+2025-08-26 10:17:53,425 | INFO | submission | Enqueued job file_id=487a4dd4-1ecb-45d3-8fcb-bb5f93188ed7 name=test_doc.txt size=68
+2025-08-26 10:17:53,426 | INFO | submission | RES POST /submit -> 200
+2025-08-26 10:18:05,974 | INFO | submission | REQ GET /report/487a4dd4-1ecb-45d3-8fcb-bb5f93188ed7
+2025-08-26 10:18:05,978 | INFO | submission | Report fetched file_id=487a4dd4-1ecb-45d3-8fcb-bb5f93188ed7
+2025-08-26 10:18:05,981 | INFO | submission | RES GET /report/487a4dd4-1ecb-45d3-8fcb-bb5f93188ed7 -> 200
+2025-08-26 10:21:17,101 | INFO | submission | REQ GET /docs
+2025-08-26 10:21:17,104 | INFO | submission | RES GET /docs -> 200
+2025-08-26 10:21:17,395 | INFO | submission | REQ GET /openapi.json
+2025-08-26 10:21:17,409 | INFO | submission | RES GET /openapi.json -> 200

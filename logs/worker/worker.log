@@ -1,0 +1,591 @@
+2025-08-20 04:27:38,229 | INFO | static-worker | Static Worker started, waiting for jobs...
+2025-08-20 04:45:10,295 | INFO | static-worker | Loaded 1 YARA rule files from /app/rules
+2025-08-20 04:45:10,298 | INFO | static-worker | Connected to ClamAV via Unix socket
+2025-08-20 04:45:10,303 | INFO | static-worker | Processed file_id=c0c1fd7d-f2d5-45cd-83a2-400e7c48c1da sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=ERROR
+2025-08-20 04:53:15,167 | INFO | static-worker | Processed file_id=d79e2093-2c06-4b5c-ac11-8bb4aaedf4d9 sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=ERROR
+2025-08-20 04:59:07,651 | INFO | static-worker | Processed file_id=8c4a4f7f-51c1-4ce0-950f-331e0fcdffd6 sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=ERROR
+2025-08-20 05:03:16,963 | INFO | static-worker | Processed file_id=0938cb2b-8006-4918-9ff5-614fc624774a sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=ERROR
+2025-08-20 05:18:38,143 | INFO | static-worker | Static Worker started, waiting for jobs...
+2025-08-20 05:19:29,041 | INFO | static-worker | Loaded 1 YARA rule files from /app/rules
+2025-08-20 05:19:29,043 | INFO | static-worker | Connected to ClamAV via Unix socket
+2025-08-20 05:19:29,046 | INFO | static-worker | Processed file_id=ad34d371-b795-4ece-8c6d-c678ab303f1f sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=ERROR
+2025-08-20 06:17:45,854 | INFO | static-worker | Processed file_id=a2753821-188f-476c-b337-f8284b326bd0 sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=ERROR
+2025-08-20 06:20:17,186 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-20 06:20:41,513 | INFO | static-worker | Loaded 1 YARA rule files from /app/rules
+2025-08-20 06:20:41,517 | INFO | static-worker | Connected to ClamAV at clamav:3310
+2025-08-20 06:20:41,522 | INFO | static-worker | Processed file_id=66c0455e-014b-4adf-ba5d-8f6757db2e88 sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=ERROR
+2025-08-20 06:23:55,131 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-20 06:23:55,144 | INFO | static-worker | Loaded 1 YARA rule files from /app/rules
+2025-08-20 06:23:55,146 | WARNING | static-worker | ClamAV not available at clamav:3310: Could not reach clamd using network (clamav, 3310)
+2025-08-20 06:23:55,148 | INFO | static-worker | Processed file_id=821356f7-d4ca-4295-a967-7c39d3d182ad sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=unavailable
+2025-08-20 06:24:14,804 | INFO | static-worker | Connected to ClamAV at clamav:3310
+2025-08-20 06:24:14,807 | INFO | static-worker | Processed file_id=e1d9ad86-8443-4a00-876b-0b11666ad670 sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=ERROR
+2025-08-20 06:26:10,806 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-20 06:27:22,784 | INFO | static-worker | Loaded 1 YARA rule files from /app/rules
+2025-08-20 06:27:22,787 | INFO | static-worker | Connected to ClamAV at clamav:3310
+2025-08-20 06:27:22,791 | INFO | static-worker | Processed file_id=600b852d-0ac9-4d77-aa77-465918598b80 sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=ERROR
+2025-08-20 06:27:25,291 | INFO | static-worker | Processed file_id=ddb8c3bb-dd49-47f6-af78-00a17a7f788c sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=ERROR
+2025-08-20 06:30:32,500 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-20 06:34:07,846 | INFO | static-worker | Loaded 1 YARA rule files from /app/rules
+2025-08-20 06:34:07,849 | INFO | static-worker | Connected to ClamAV at clamav:3310
+2025-08-20 06:34:07,853 | INFO | static-worker | Processed file_id=8e1c06a8-fc3c-4d01-9330-c622b542dcd3 sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=ERROR
+2025-08-20 10:49:33,435 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-20 10:50:50,733 | INFO | static-worker | Loaded 1 YARA rule files from /app/rules
+2025-08-20 10:50:50,737 | INFO | static-worker | Connected to ClamAV at clamav:3310
+2025-08-20 10:50:50,738 | ERROR | static-worker | ClamAV scan error: 'ClamdNetworkSocket' object has no attribute 'instream'
+Traceback (most recent call last):
+  File "/app/worker.py", line 305, in clamav_scan_bytes
+    res = c.instream(bio)
+          ^^^^^^^^^^
+AttributeError: 'ClamdNetworkSocket' object has no attribute 'instream'
+2025-08-20 10:50:50,741 | INFO | static-worker | Processed file_id=f1415b75-cbf7-4abe-a1c9-2d9568da78de sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=error
+2025-08-20 10:53:48,222 | ERROR | static-worker | ClamAV scan error: 'ClamdNetworkSocket' object has no attribute 'instream'
+Traceback (most recent call last):
+  File "/app/worker.py", line 305, in clamav_scan_bytes
+    res = c.instream(bio)
+          ^^^^^^^^^^
+AttributeError: 'ClamdNetworkSocket' object has no attribute 'instream'
+2025-08-20 10:53:48,225 | INFO | static-worker | Processed file_id=e166bd66-38fe-45a8-8608-09388884941c sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=error
+2025-08-20 10:55:11,979 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-20 10:55:42,769 | INFO | static-worker | Loaded 1 YARA rule files from /app/rules
+2025-08-20 10:55:42,792 | INFO | static-worker | Processed file_id=f4a30fc4-0ebb-4263-b384-ec92a6223d4c sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=CLEAN
+2025-08-20 11:16:22,981 | INFO | static-worker | Processed file_id=83eb87c2-65b6-435f-9f69-3eee07ec9eb1 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f mime=text/plain size=68 yara=1 clamav=INFECTED
+2025-08-21 10:59:22,093 | INFO | static-worker | Processed file_id=1013d0b0-d0ed-46e7-bb8a-103088772bec sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f mime=text/plain size=68 yara=1 clamav=INFECTED
+2025-08-21 10:59:38,597 | INFO | static-worker | Processed file_id=25efed45-f96c-4e35-9706-568d6562af64 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f mime=text/plain size=68 yara=1 clamav=INFECTED
+2025-08-21 11:06:08,199 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-21 11:07:19,067 | INFO | static-worker | Loaded 1 YARA rule files from /app/rules
+2025-08-21 11:07:19,079 | INFO | static-worker | Processed file_id=bb1a1eed-5b36-4b1e-ac6f-6bac595b6ac1 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f mime=text/plain size=68 yara=1 clamav=INFECTED
+2025-08-21 11:11:06,792 | INFO | static-worker | Processed file_id=50eafece-b1e9-480e-b46b-b1807d9fb311 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f mime=text/plain size=68 yara=1 clamav=INFECTED
+2025-08-21 11:15:16,854 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-21 11:16:07,915 | INFO | static-worker | Loaded 1 YARA rule files from /app/rules
+2025-08-21 11:16:07,924 | INFO | static-worker | Processed file_id=231b1ae0-ee5e-4f1d-a32d-088b7a4a13bf sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f mime=text/plain size=68 yara=1 clamav=INFECTED
+2025-08-21 11:22:22,108 | INFO | static-worker | Processed file_id=0feb36f4-c729-46da-ade9-a0f3a3d268e9 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f mime=text/plain size=68 yara=1 clamav=INFECTED
+2025-08-21 11:23:14,804 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-21 11:33:37,056 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-21 13:01:20,940 | INFO | static-worker | Loaded 1 YARA rule files from /app/rules
+2025-08-21 13:01:20,949 | INFO | static-worker | Processed file_id=b18fa9e0-2cc8-4c19-b812-f310d94ab708 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f mime=text/plain size=68 yara=1 clamav=INFECTED
+2025-08-22 09:32:14,301 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-22 09:32:57,631 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-22 09:32:57,661 | INFO | static-worker | Processed file_id=372a9c4f-0c4d-4400-ab11-f248c57567b7 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f mime=text/plain size=68 yara=0 clamav=INFECTED
+2025-08-22 09:39:06,752 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-22 09:39:06,806 | INFO | static-worker | Processed file_id=48389717-2a27-4086-8b55-f45eb504fc71 sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 mime=text/plain size=105 yara=0 clamav=CLEAN
+2025-08-22 09:50:49,732 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-22 09:50:50,934 | INFO | static-worker | Processed file_id=dcf02707-2eb1-40ad-8397-46f9752476f3 sha256=935016795f3e6908e75acbc2040a01e2e4cdb494a57c42f63a0d6eedb2372256 mime=application/vnd.microsoft.portable-executable size=254800 yara=0 clamav=CLEAN
+2025-08-22 09:52:16,320 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-22 09:53:33,308 | INFO | static-worker | Processed file_id=512d71cb-cfc7-4572-89b8-edd5601c32d1 sha256=5f18361e849200d798096900856e6eba25d41b09af42182962c185c88fac05d9 mime=application/pdf size=7039715 yara=0 clamav=CLEAN
+2025-08-22 09:57:57,277 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-22 09:57:57,323 | INFO | static-worker | Processed file_id=94ac7915-9d25-40b8-801b-ead98eb1f155 sha256=f59da0074c3d44c711c5f9d660515b6b09baf96c1551f3a708b76825200a2298 mime=application/json size=490 yara=0 clamav=CLEAN
+2025-08-22 09:59:52,204 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-22 09:59:54,108 | INFO | static-worker | Processed file_id=45b424da-bf43-4893-9c64-429a57457a6b sha256=867c0ea9c75c0c2ccddfb5381b323640665d79fccdcdd3f2ab21fae53bc765c4 mime=application/vnd.openxmlformats-officedocument.wordprocessingml.document size=505958 yara=0 clamav=CLEAN
+2025-08-22 10:06:48,696 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-22 10:06:48,795 | INFO | static-worker | Processed file_id=86716aa2-deef-48fb-8895-b6b14f257e5a sha256=09cd2238812c44cf22c3e86bc57ab3271ada9b7873646b52b48252101ff47c5a mime=text/plain size=89 yara=0 clamav=CLEAN
+2025-08-22 10:15:19,418 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-22 10:15:19,880 | INFO | static-worker | Processed file_id=d77d5d42-8807-4ee7-8ec0-b4f9b5d7920a sha256=2c6feb1bd421eb227a2293909f41833255ce8c64e60d74bb270a9d9594f3ffbe mime=application/pdf size=87541 yara=0 clamav=CLEAN
+2025-08-22 10:22:05,302 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-22 10:22:05,359 | INFO | static-worker | Processed file_id=fbae4d16-795b-415d-b301-6c3682ee93c0 sha256=4e834098b1a368c489fdcf94b3d56a49389094ce9d1cac5572294c85e7eae812 mime=application/pdf size=561 yara=0 clamav=CLEAN
+2025-08-22 10:24:52,182 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-22 10:24:52,189 | INFO | static-worker | Processed file_id=e4a92c86-7b67-4d26-866c-57c8cb45a3f8 sha256=4e834098b1a368c489fdcf94b3d56a49389094ce9d1cac5572294c85e7eae812 mime=application/pdf size=561 yara=0 clamav=CLEAN
+2025-08-22 10:27:30,492 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-22 10:27:30,540 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-22 10:27:30,546 | INFO | static-worker | Processed file_id=bb7b3661-242d-40f4-bf9f-2d95e8b820d0 sha256=4e834098b1a368c489fdcf94b3d56a49389094ce9d1cac5572294c85e7eae812 mime=application/pdf size=561 yara=0 clamav=ERROR
+2025-08-22 10:29:09,155 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-22 10:29:09,665 | INFO | static-worker | Processed file_id=55466ed8-c64a-4587-9456-e0263934dc42 sha256=2c6feb1bd421eb227a2293909f41833255ce8c64e60d74bb270a9d9594f3ffbe mime=application/pdf size=87541 yara=0 clamav=CLEAN
+2025-08-26 06:08:07,900 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-26 06:10:09,713 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-26 06:10:09,992 | INFO | static-worker | Processed file_id=8e6988a8-e849-4c0a-92c7-b46da88d8dbf sha256=2c6feb1bd421eb227a2293909f41833255ce8c64e60d74bb270a9d9594f3ffbe mime=application/pdf size=87541 yara=0 clamav=CLEAN
+2025-08-26 06:23:20,154 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-26 06:23:20,162 | INFO | static-worker | Processed file_id=83e537bb-a226-44e6-8749-868c6b30fecd sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f mime=text/plain size=68 yara=0 clamav=INFECTED
+2025-08-26 06:36:07,977 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-26 06:38:31,069 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-26 06:38:31,080 | INFO | static-worker | Processed file_id=cad349fa-df4b-4f6a-9ee5-5a3c86f5ba98 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f mime=text/plain size=68 yara=0 clamav=INFECTED
+2025-08-26 09:42:57,449 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-26 09:42:57,489 | INFO | static-worker | Processed file_id=cc3e736e-8c2d-45e8-a2ab-c83a9cb203f9 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f mime=text/plain size=68 yara=0 clamav=INFECTED
+2025-08-26 10:17:17,962 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-26 10:17:53,470 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 253, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-26 10:17:53,481 | INFO | static-worker | Processed file_id=487a4dd4-1ecb-45d3-8fcb-bb5f93188ed7 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f mime=text/plain size=68 yara=0 clamav=INFECTED
+2025-08-26 10:21:38,799 | INFO | static-worker | Static Worker started, waiting for jobs... (redis=redis://redis:6379/0, bucket=uploads)
+2025-08-26 10:31:31,641 | INFO | static-worker | Static worker started; listening for queue 'jobs' (redis=redis://redis:6379/0)
+2025-08-26 10:49:04,549 | INFO | static-worker | Static worker started; listening for queue 'jobs' (redis=redis://redis:6379/0)
+2025-08-26 11:07:20,744 | INFO | static-worker | Static worker started; listening for queue 'jobs' (redis=redis://redis:6379/0)
+2025-08-26 11:27:00,433 | INFO | static-worker | Static worker started; listening for queue 'jobs' (redis=redis://redis:6379/0)
+2025-08-26 11:27:49,254 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 369, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-08-26 11:27:49,257 | INFO | static-worker | Connected to ClamAV at clamav:3310
+2025-08-26 11:27:49,261 | INFO | static-worker | Processed file job file_id=27bcc921-87fd-4d23-893d-c112845f478e sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=INFECTED
+2025-08-26 11:28:32,521 | INFO | static-worker | Processed domain job domain=google.com ok=True expiry_days=33
+2025-08-26 12:12:14,104 | INFO | static-worker | Static worker started; listening for queue 'jobs' (redis=redis://redis:6379/0)
+2025-08-26 12:13:10,477 | INFO | static-worker | Processed domain job domain=google.com job_id=cecc07fa-021a-4d3c-aad7-88167a21f918 ok=True expiry_days=33
+2025-08-26 12:13:12,118 | INFO | static-worker | Processed domain job domain=google.com job_id=9986b5bc-9ba3-4725-8b1c-4d2fa207a991 ok=True expiry_days=33
+2025-09-01 10:54:13,212 | INFO | static-worker | Static worker started; listening for queue 'jobs' (redis=redis://redis:6379/0)
+2025-09-01 10:54:13,260 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 369, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-01 10:54:13,263 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-01 10:54:13,265 | INFO | static-worker | Processed file job file_id=701413f1-9514-46ab-9c9d-83bb6ff3d2c3 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-01 10:54:13,279 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 369, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-01 10:54:13,283 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-01 10:54:13,285 | INFO | static-worker | Processed file job file_id=fd11eb5c-960e-40ea-8e36-716dcede1a0f sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-01 10:54:13,301 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 369, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-01 10:54:13,304 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-01 10:54:13,305 | INFO | static-worker | Processed file job file_id=3d95ead4-6b76-4481-a5d2-628def7230f9 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-01 10:54:13,322 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 369, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-01 10:54:13,324 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-01 10:54:13,326 | INFO | static-worker | Processed file job file_id=2660430e-84e8-44b1-8b1b-84e646f34212 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-01 10:54:13,496 | INFO | static-worker | Processed domain job domain=google.com job_id=91523e9d-1f5d-436f-b569-cc33d87a3808 ok=True expiry_days=63
+2025-09-01 10:54:13,510 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 369, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-01 10:54:13,513 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-01 10:54:13,515 | INFO | static-worker | Processed file job file_id=ab056fe5-ca42-4222-bc99-38179f5b3b72 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-01 10:54:13,530 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 369, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-01 10:54:13,532 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-01 10:54:13,534 | INFO | static-worker | Processed file job file_id=924e0170-4259-4d25-838c-93d9973edc79 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-01 10:54:13,549 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 369, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-01 10:54:13,551 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-01 10:54:13,553 | INFO | static-worker | Processed file job file_id=43b22640-9426-4128-a611-4156f5148e71 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-01 10:54:13,644 | INFO | static-worker | Processed domain job domain=google.com job_id=9ea2b061-a51d-4306-bd07-0cf62ee07031 ok=True expiry_days=63
+2025-09-01 10:54:13,735 | INFO | static-worker | Processed domain job domain=google.com job_id=93da3cbd-6022-4348-9f88-c41cf55cbbf0 ok=True expiry_days=63
+2025-09-01 10:54:13,750 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 369, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-01 10:54:13,752 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-01 10:54:13,754 | INFO | static-worker | Processed file job file_id=64ae7666-479d-4b98-b7f6-e1c0aebcbd25 sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 yara=0 clamav=ERROR
+2025-09-01 10:54:13,767 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 369, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-01 10:54:13,770 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-01 10:54:13,771 | INFO | static-worker | Processed file job file_id=067d67c2-35eb-402d-882e-ee3f96a2abf0 sha256=709139277fb8bec82c260d8e3a7224ad016f1bddc18733d8c51ac98e26b2b7d6 yara=0 clamav=ERROR
+2025-09-01 10:59:21,101 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 369, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-01 10:59:21,111 | INFO | static-worker | Connected to ClamAV at clamav:3310
+2025-09-01 10:59:21,116 | INFO | static-worker | Processed file job file_id=afbe6681-9df9-4b41-bcca-9cdc4921fe0a sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=INFECTED
+2025-09-01 10:59:22,111 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 369, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-01 10:59:22,115 | INFO | static-worker | Processed file job file_id=ffad0294-bc46-4641-b803-1e3f9c4b01d1 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=INFECTED
+2025-09-01 11:00:59,611 | INFO | static-worker | Processed domain job domain=www.ifocussystec.com job_id=5597f3ba-048c-43ee-879f-649ff3673772 ok=True expiry_days=37
+2025-09-01 11:01:00,097 | INFO | static-worker | Processed domain job domain=www.ifocussystec.com job_id=85cdfd24-36c7-4f2e-92c1-12c4ccff4a68 ok=True expiry_days=37
+2025-09-01 11:46:01,300 | INFO | static-worker | Static worker started; listening for queue 'jobs' (redis=redis://redis:6379/0)
+2025-09-01 11:46:01,330 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-01 11:46:01,334 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-01 11:46:01,336 | INFO | static-worker | Processed file job file_id=79c02d41-2397-4ba4-9937-bcec6dbf1cc5 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-01 11:46:01,350 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-01 11:46:01,353 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-01 11:46:01,355 | INFO | static-worker | Processed file job file_id=59327d8d-f5ad-4edb-8c1f-2d8586d470c1 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-01 11:46:11,949 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-01 11:46:11,953 | INFO | static-worker | Connected to ClamAV at clamav:3310
+2025-09-01 11:46:11,956 | INFO | static-worker | Processed file job file_id=a8844cfb-a451-4a1e-b02a-dd2a5e935648 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=INFECTED
+2025-09-02 11:23:12,875 | INFO | static-worker | Static worker started; listening for queue 'jobs' (redis=redis://redis:6379/0)
+2025-09-02 11:23:12,896 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:12,899 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:12,901 | INFO | static-worker | Processed file job file_id=e01f2ae6-a622-45fe-84c9-1a3c8d2770a7 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:12,909 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:12,911 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:12,912 | INFO | static-worker | Processed file job file_id=c956d9bb-b07c-4045-a21c-2343d5f5460f sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:12,919 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:12,921 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:12,921 | INFO | static-worker | Processed file job file_id=efde5800-9015-4409-91d4-1999abfe7e2d sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:12,929 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:12,931 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:12,932 | INFO | static-worker | Processed file job file_id=9738f3a7-18ab-402f-895f-1c065e25765e sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:12,940 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:12,942 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:12,943 | INFO | static-worker | Processed file job file_id=23d2ab4b-4924-4fb1-9fff-eda2fb67eb70 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:12,950 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:12,952 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:12,952 | INFO | static-worker | Processed file job file_id=f2eac3f4-63fa-460f-91be-f31ddc4634f8 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:12,960 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:12,962 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:12,963 | INFO | static-worker | Processed file job file_id=52589a21-a926-4cfe-a6d5-3e7bb6ba8d8a sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:12,970 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:12,971 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:12,972 | INFO | static-worker | Processed file job file_id=97de3b24-cf76-47c0-b300-9664c7d3ae8b sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:12,982 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:12,983 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:12,984 | INFO | static-worker | Processed file job file_id=1b08da64-c91a-4714-966c-f14fc6500561 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:12,993 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:12,995 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:12,997 | INFO | static-worker | Processed file job file_id=b51910e1-2ff0-4a88-a0a2-2334ee13b601 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:13,006 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:13,008 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:13,009 | INFO | static-worker | Processed file job file_id=bce31706-5c48-42e7-a7bb-d4e4d20c6c35 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:13,020 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:13,022 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:13,024 | INFO | static-worker | Processed file job file_id=4bce088b-242a-4fa7-b3f2-649a0ff2c716 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:13,033 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:13,035 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:13,036 | INFO | static-worker | Processed file job file_id=08123c27-c0ee-48e8-b811-b7f30cad916d sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:13,046 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:13,048 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:13,049 | INFO | static-worker | Processed file job file_id=ef5f0c4d-65a5-410f-9727-98d8fa8610c9 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:13,056 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:13,058 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:13,059 | INFO | static-worker | Processed file job file_id=29356b79-34d3-41b7-a237-0a6b7318eac5 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:13,066 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:13,067 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:13,068 | INFO | static-worker | Processed file job file_id=e22d6d7a-dcda-4c19-a99e-b14ab198191c sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:13,075 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:13,076 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:13,077 | INFO | static-worker | Processed file job file_id=e11b26af-deb9-448f-a51a-c56db94b59a4 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:13,084 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:13,086 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:13,086 | INFO | static-worker | Processed file job file_id=31b65a18-fcda-4ea6-9e4c-3a60eeadb044 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:13,095 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:13,096 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:13,097 | INFO | static-worker | Processed file job file_id=b9a56704-3a73-4f52-a86b-f978a2a58ee2 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:13,206 | INFO | static-worker | Processed domain job domain=google.com job_id=f9fb084c-63d2-42f4-8533-e03b6c5c8a7d ok=True expiry_days=62
+2025-09-02 11:23:13,279 | INFO | static-worker | Processed domain job domain=google.com job_id=a6bc0eda-737f-4a96-9500-977b98034737 ok=True expiry_days=62
+2025-09-02 11:23:13,288 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:13,290 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:13,291 | INFO | static-worker | Processed file job file_id=966c63af-5e95-4c09-b745-108fca9b9b36 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:13,466 | INFO | static-worker | Processed domain job domain=ifocussystec.com job_id=d27fac90-2943-457c-9cc0-0938bfb271db ok=True expiry_days=36
+2025-09-02 11:23:13,576 | INFO | static-worker | Processed domain job domain=ifocussystec.com job_id=ade1883a-41af-4924-9e26-c264f1bd1a75 ok=True expiry_days=36
+2025-09-02 11:23:13,585 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:13,587 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:13,588 | INFO | static-worker | Processed file job file_id=6746ece7-017e-49bf-b7ca-143663456b27 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:13,595 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:13,597 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:13,597 | INFO | static-worker | Processed file job file_id=8c615fb4-1e87-4180-9944-589ce188f704 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:13,605 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:13,607 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:13,608 | INFO | static-worker | Processed file job file_id=265e7726-2f06-40ae-a152-da7a48e18ae7 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:23:13,615 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:23:13,617 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 11:23:13,618 | INFO | static-worker | Processed file job file_id=dfcebf9f-03f4-4596-9b0d-d3d0e43eea11 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 11:24:00,223 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(56): unterminated regular expression
+Traceback (most recent call last):
+  File "/app/worker.py", line 74, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(56): unterminated regular expression
+2025-09-02 11:24:00,226 | INFO | static-worker | Connected to ClamAV at clamav:3310
+2025-09-02 11:24:00,228 | INFO | static-worker | Processed file job file_id=a6033d30-a99c-4715-8a0d-c27fe43548fa sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=INFECTED
+2025-09-02 12:55:36,503 | INFO | static-worker | Static worker started; listening for queue 'jobs' (redis=redis://redis:6379/0)
+2025-09-02 12:55:36,521 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(40): undefined identifier "entropy"
+Traceback (most recent call last):
+  File "/app/worker.py", line 475, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(40): undefined identifier "entropy"
+2025-09-02 12:55:36,523 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 12:55:36,525 | INFO | static-worker | Processed file job file_id=1137f4b8-4e81-442c-bb13-70126bf255ae sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 12:55:36,536 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(40): undefined identifier "entropy"
+Traceback (most recent call last):
+  File "/app/worker.py", line 475, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(40): undefined identifier "entropy"
+2025-09-02 12:55:36,539 | WARNING | static-worker | ClamAV not available at clamav:3310 -> Could not reach clamd using network (clamav, 3310)
+2025-09-02 12:55:36,540 | INFO | static-worker | Processed file job file_id=40e9a90f-c4cb-4c8b-ace7-e0de58ab4996 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=ERROR
+2025-09-02 12:55:36,541 | INFO | static-worker | Running domain scans for google.com (job_id=a7c26632-9936-4c68-82d6-3a1e6fe2ef2b)
+2025-09-02 12:55:57,088 | INFO | static-worker | Processed domain job for domain=google.com (job_id=a7c26632-9936-4c68-82d6-3a1e6fe2ef2b)
+2025-09-02 12:55:57,090 | INFO | static-worker | Running domain scans for google.com (job_id=7e757d88-912a-48b4-9a82-ef1804270e9f)
+2025-09-02 12:56:17,580 | INFO | static-worker | Processed domain job for domain=google.com (job_id=7e757d88-912a-48b4-9a82-ef1804270e9f)
+2025-09-02 12:56:17,594 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(40): undefined identifier "entropy"
+Traceback (most recent call last):
+  File "/app/worker.py", line 475, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(40): undefined identifier "entropy"
+2025-09-02 12:56:17,596 | INFO | static-worker | Connected to ClamAV at clamav:3310
+2025-09-02 12:56:17,599 | INFO | static-worker | Processed file job file_id=a54a9743-9148-4240-99ca-a27d9bae71af sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=INFECTED
+2025-09-02 12:56:17,607 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(40): undefined identifier "entropy"
+Traceback (most recent call last):
+  File "/app/worker.py", line 475, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(40): undefined identifier "entropy"
+2025-09-02 12:56:17,609 | INFO | static-worker | Processed file job file_id=8d30d325-b91f-47da-9f21-bc6d511d087a sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=INFECTED
+2025-09-02 12:56:17,618 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(40): undefined identifier "entropy"
+Traceback (most recent call last):
+  File "/app/worker.py", line 475, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(40): undefined identifier "entropy"
+2025-09-02 12:56:17,620 | INFO | static-worker | Processed file job file_id=1b5e7b80-74f2-451a-a7a6-1ebbb4c8ccb0 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=INFECTED
+2025-09-02 12:56:35,783 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(40): undefined identifier "entropy"
+Traceback (most recent call last):
+  File "/app/worker.py", line 475, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(40): undefined identifier "entropy"
+2025-09-02 12:56:35,786 | INFO | static-worker | Processed file job file_id=585766cc-d7f2-42d8-81c6-6e05b08edad9 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=INFECTED
+2025-09-02 12:56:36,345 | ERROR | static-worker | Failed to load YARA rules: /app/rules/eicar.yar(40): undefined identifier "entropy"
+Traceback (most recent call last):
+  File "/app/worker.py", line 475, in load_yara_rules
+    _yara_rules = yara.compile(filepaths=namespaces)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yara.SyntaxError: /app/rules/eicar.yar(40): undefined identifier "entropy"
+2025-09-02 12:56:36,347 | INFO | static-worker | Processed file job file_id=53ca4f26-2be4-4f48-ae31-a32af09a3571 sha256=275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f yara=0 clamav=INFECTED
+2025-09-02 12:57:11,656 | INFO | static-worker | Running domain scans for ifocussystec.com (job_id=5f41e403-4ff2-4f97-85f7-87596fc4acba)
+2025-09-02 12:57:28,429 | INFO | static-worker | Processed domain job for domain=ifocussystec.com (job_id=5f41e403-4ff2-4f97-85f7-87596fc4acba)
+2025-09-02 12:57:28,431 | INFO | static-worker | Running domain scans for ifocussystec.com (job_id=8d3d194b-a4ff-452e-a96a-d564f6270233)
+2025-09-02 12:57:45,106 | INFO | static-worker | Processed domain job for domain=ifocussystec.com (job_id=8d3d194b-a4ff-452e-a96a-d564f6270233)
