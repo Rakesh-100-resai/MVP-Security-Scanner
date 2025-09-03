@@ -1,6 +1,4 @@
-Of course. Here is a comprehensive documentation for the "Sentinel AI" security scanner project we've been working on. This document is structured like a standard `README.md` file that you can place in your project's root directory.
 
------
 
 # **Sentinel AI - MVP Security Scanner**
 
